@@ -16,6 +16,5 @@ public class Address {
         this.number = number;
     }
 
-
 }
 
