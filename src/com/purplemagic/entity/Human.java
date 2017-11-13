@@ -1,13 +1,14 @@
 package com.purplemagic.entity;
 
 import java.util.Date;
+import java.util.List;
 
 public class Human {
 
     private int id;
     private String name;
     private String surename;
-    private String address;
+    private List<Address> address;
     private String email;
     private Date dob;
     private boolean car;
@@ -16,8 +17,8 @@ public class Human {
     private String mother;
     private int jmbg;
 
-    public Human(int id, String name, String surename, String address, String email, Date dob, boolean car, boolean motocycle,
-                 String father, String mother, int jmbg) {
+    public Human(int id, String name, String surename, List<Address> address, String email, Date dob, boolean car, boolean
+            motocycle, String father, String mother, int jmbg) {
         this.id = id;
         this.name = name;
         this.surename = surename;
@@ -55,11 +56,11 @@ public class Human {
         this.surename = surename;
     }
 
-    public String getAddress() {
+    public List<Address> getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(List<Address> address) {
         this.address = address;
     }
 
