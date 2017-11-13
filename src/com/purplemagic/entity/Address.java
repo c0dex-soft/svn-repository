@@ -31,5 +31,13 @@ public class Address {
     public void setCity(String city) {
         this.city = city;
     }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
 }
 
