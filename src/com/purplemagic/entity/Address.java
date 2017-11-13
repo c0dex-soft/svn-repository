@@ -16,5 +16,12 @@ public class Address {
         this.number = number;
     }
 
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
 }
 
